@@ -1,0 +1,20 @@
+{
+    "qr_code_generation": {
+        "error_correction_levels": ["L, M, Q, H"],
+        "sequence_lengths": [3, 5, 7, 10]
+    },
+    "display": {
+        "display_times": [0.5, 1.0, 1.5, 2.0],
+        "display_device": "Applie iPad Pro 12.9 inch"
+    },
+    "scanning": {
+        "camera": "Logitech C920 HD Pro Webcam"
+    },
+    "window_sizes": [3, 5, 10, 20],
+    "transmission_methods": ["standard", "sequential", "multiplexed", "error_differentiated"],
+    "partitioning_methods": ["list_splitting", "float_splitting"],
+    "data_path": "data_generation/example_window.json",
+    "img_path": "qr_images/test_qr.png",
+    "img_output_path": "qr_images/test_qr.png",
+    "data_output_path": "data_output/"
+}

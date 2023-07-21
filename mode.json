@@ -1,0 +1,14 @@
+{
+    "mode": "gen",
+    "window_size": 3,
+    "transmission_methods": ["sequential", "multiplexed"],
+    "partitioning_method": "float_splitting",
+    "data_path": "data_generation/example_window_3.json",
+    "img_path": "qr_images",
+    "img_output_path": "qr_images",
+    "data_output_path": "data_output",
+    "error_correction_level": "L",
+    "sequence_length": 10,
+    "display_time": 1,
+    "sequence_id": 0
+}
